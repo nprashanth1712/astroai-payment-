@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/server.js"
+    }
+  ],
+  "env": {
+    "NODE_ENV": "production",
+    "FIREBASE_DATABASE_URL": "https://astroai-28ea8-default-rtdb.firebaseio.com/",
+    "FIREBASE_SERVICE_ACCOUNT_KEY": "{\"type\":\"service_account\",\"project_id\":\"astroai-28ea8\",\"private_key_id\":\"d85790b7cb0949c8465f22752bde0eddfde2e1b0\",\"private_key\":\"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClJp1PxzXreUTj\\nzYdwwlhk5fqqXvWj0omrOdj3AEswX/SAad6vDRLZ5osQUCNMxtTtDolc9mQAoY0Q\\nyOhchqkXDbtAM0foD/W2Y4CSwGRoc4gFo4Oa1rugasGLD0JEV06ogqiArt7BdXSr\\nX03BSai5QKixn2az8fhJNj7pFLQLp1RcW+7c7EybxwdE/PiK599t+Bu1Umm8Cqy8\\nrx4IBSIOhg1yQWiufAdIVIuY1lZnLDpb0xT3tYPeJLzY7S2elAPwYA+Rk4RlqZPq\\nXPuSzY3VsKy0UA3W8DyoRKkuA8lwLJj3vgDTDQBwy85D9XJDbta2w/MvYtgZPaOo\\n3rBc3ywtAgMBAAECggEAAKiySP60/t8JgNUxnKgR3TkzsllVppUw+m9tJ7MnGabQ\\nXXDOtCkbsaXjWSnQsj463EVKFAZhqMT8QJxknPXml9J0tFFgEJN7ugIUocFFxUrs\\nuIUKAeSoc//pDMp/S7GDfVWkIXtRJTl4QTTMpSBLnY2d/rNxn/cvs+8U+i4cd81t\\n+bnKDmbdjaWWmo9/pOYlqx+Ozb19UqkO2/Gj+dWnBspb6VL6Ml5JPExjmqd5E5G7\\nVXIoNTNWjpj/F05IksxZhFSm3PgyrybadLnq5TnszuPhIma6w3NygTHGloA/kY/h\\ndOwZDfFc5z4aD/y/JDppUTwuChEcs0Nt7czpqrmJiwKBgQDfaQgqrw3Oi/eUG0+v\\nnkbnbC4UE2xgShD6BwwnoUgBY+n/YpnaB7r4BIo6tgZgMDsltvNqjFiI5cZtQmgO\\nUBqrVYJb8ThTWUjoDNo6Cm9FYfRTd8TsAi2cWDBRpvb6roqrYEybJ2wU4MwLq+z7\\nB+hpiITNWp6l+Pfv8u/Q+Rr5lwKBgQC9PfWCZrnTOEyDK4jc2UD2w2c5weretp6i\\njf0bIxB5zvGEVj/EJ/6iBvjpkAOfC5C/TMaNMJSHg9Gk86UOlYZA7uRdW8TFBP+l\\n6d8mOby4PD2MW4Og649GG+twOGdLRVpx8fGqKIcg0B3PO7UgnllZdTl+rPhPIKKE\\nAXf1xXaY2wKBgBW8Ojcs4ML/iw61uYL0eyF4vOLnINwdWJl6pgwU/NRlzBY0mZNE\\nvUPz7R7ZJrWk+5wnuHbdQJ/Q+wUWONlroayZnR0k0r4JKbapyXFsInc1mHemZ1ou\\nvBFB4zGOdOjeok8aB1nw8+r0E+XuzBeAJXRe+8yezGCJYFXP5NUH5z/xAoGAJeqj\\nJUSF2P8/vUxcuLtC2+5c4WKsN4FpmXJPkz9cTrubAoPxdND6oOY6uzlisFw13U55\\nvdJNADX2LFGw8ZId+yaiVN5NN5h/zHNmhZct69AOGPBBGF36L/bqHmr+r0MvEwOC\\nAzDpmjZ4sovpB6cSie0F3w6zFc+ZIE/XBERTNd8CgYEAw5OhRFlexmzEI6Y7yhk1\\nPYCpvK7cYB4IFLK0IQRGK3zUZzwGcySE/oczaOjzTNRZui3DzikjUlxrGdAJZ3uO\\neq7sJ6Xj24AfHh+J0sw0CKvBEP3EfS1dVcfSgBxQ5I7ryDtX2f4tj8Njm9EnYEK4\\nP7+vWOfADETAp5Sq5peuobE=\\n-----END PRIVATE KEY-----\\n\",\"client_email\":\"firebase-adminsdk-k60w2@astroai-28ea8.iam.gserviceaccount.com\",\"client_id\":\"114472247368023127453\",\"auth_uri\":\"https://accounts.google.com/o/oauth2/auth\",\"token_uri\":\"https://oauth2.googleapis.com/token\",\"auth_provider_x509_cert_url\":\"https://www.googleapis.com/oauth2/v1/certs\",\"client_x509_cert_url\":\"https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-k60w2%40astroai-28ea8.iam.gserviceaccount.com\",\"universe_domain\":\"googleapis.com\"}",
+    "RAZORPAY_KEY_ID": "rzp_live_RNJ5ri76TyH7pe",
+    "RAZORPAY_KEY_SECRET": "i3hi1AboTliywjFE8UUBpsoi"
+  }
+}
